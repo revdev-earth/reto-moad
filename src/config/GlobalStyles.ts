@@ -4,6 +4,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     background-color: black;
     margin: 0;
+    color: white;
+    font-family: "Avenir Next";
   }
 `
 

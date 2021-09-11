@@ -10,7 +10,7 @@ export const WrapperHeader = styled.div`
     content: "";
     height: 1px;
     width: 100%;
-    background: linear-gradient(0.25turn, #f69d3c, #ebf8e1, #3f87a6);
+    background: linear-gradient(0.25turn, #ee8f00, #50d98b, #00c0f5);
     position: absolute;
     bottom: 0;
   }
