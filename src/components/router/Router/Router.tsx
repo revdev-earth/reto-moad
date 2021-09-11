@@ -1,7 +1,11 @@
+// libreries
 import React from "react"
 import { BrowserRouter } from "react-router-dom"
-import Nav from "../Nav"
+// components
+// import Nav from "../Nav"
 import Switch from "../Switch"
+// styles
+import { WrapperRouter } from "./styles"
 
 // This site has 3 pages, all of which are rendered
 // dynamically in the browser (not server rendered).
@@ -15,11 +19,11 @@ import Switch from "../Switch"
 const Router = () => {
   return (
     <BrowserRouter>
-      <div>
-        <Nav />
-        <hr />
+      <WrapperRouter>
+        {/* <Nav />
+        <hr /> */}
         <Switch />
-      </div>
+      </WrapperRouter>
     </BrowserRouter>
   )
 }

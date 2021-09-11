@@ -1,6 +1,6 @@
 import React from "react"
 import { Switch as SwitchRouter, Route } from "react-router-dom"
-
+// components
 import Home from "components/views/Home"
 import Profile from "components/views/Profile"
 import Dashboard from "components/views/Home"

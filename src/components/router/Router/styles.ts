@@ -1,3 +1,6 @@
 import styled from "styled-components/macro"
 
-export const Wrapper = styled.div``
+export const WrapperRouter = styled.div`
+  max-width: 799px;
+  margin: 0 auto;
+`
