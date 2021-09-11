@@ -1,6 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import App from "./App"
+import Router from "components/router/Router"
 import reportWebVitals from "./reportWebVitals"
 import GlobalStyle from "./config/GlobalStyles"
 import { ThemeProvider } from "styled-components"
@@ -10,7 +10,7 @@ ReactDOM.render(
   <React.StrictMode>
     <GlobalStyle />
     <ThemeProvider theme={theme}>
-      <App />
+      <Router />
     </ThemeProvider>
   </React.StrictMode>,
   document.getElementById("root")
